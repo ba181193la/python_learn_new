@@ -1,0 +1,70 @@
+run python terminal:
+1)samplecode> python3  hello.py
+
+python py_compile file command (check PVC PVM)
+python3 -m py_compile hello.py
+
+2)# L-E_G-B ref files(var.py)
+ L Local
+ E-enclosing like closure fn in js
+ G -global
+ B-build in var
+
+3)we are not able to change type of var ex x="a"
+print (int(x)) => error
+a)int, float,str
+
+4)OPERATOR:
+aruthenatic:(+,-*,/,%(mod),**(pow),//(floor-only integer))
+comparision: (>,<,>=,<=,==,!=),
+logigal:(and,or,not),
+
+5)shedular ex-cron 
+when input()  data cannot pass into shedular
+import sys -terminal usage and values pass into shedular
+
+6)Sting Function
+a)lower,upper,capitalize,replace,split,join,strip,len
+b)substring=> first two= [:2],last two=[-2:]
+c)title-format string ex-myname balamurugan=> Myname Balamurugan
+d)check string use "in" if or not
+e)find the poistion
+f)"enumurate" used for get index value in array when for loop
+
+7)Condition statement => if, elif, else
+
+8)loop=>for,while 
+a)range()
+9)list=>append,insert,remove,pop,reverse,count,slicing,iteration,check if,enumerate
+10)tuples=>tuples  not imutable (not change any array value not dynamic)
+a)we count how many values in tuples and it has duplicate
+b)find index =>().index("value")
+c)slice =>note start- end (before index)
+d)Tuple unpacking
+
+9)set=>avoid duplicate, maintain unique
+10)dictionary
+11)class and OOPS
+a)why self used => self is arg of python and first parameter this is rule
+b)inhertence=>method overwriting (son aceess from dad)=>
+dad =>house() and same son => house() we can overwrite
+c)multilevel reference ,hierarcy (we can access multiple sub class)
+dad has house() we can use son1 and son2 
+d)multiple inheritence=> access multiple class for subclass 
+ex=>dad => house() mom=> money() but son can access both like Son(dad,mom)
+10)polymorphisam=> 
+method over writing=> method overwriting (son aceess from dad)=>
+dad =>house() and same son => house() we can overwrite
+method overloading (only use java not in python)=>same method but different parameter dad =>house(color,price)  son=>(color,price)
+11)abastraction=>create method in main class name "abastracted",implement another class (should be implement)
+in python =>from abc import ABC,abastracted 
+b)one abastarct class whatever abastarct method or non abastarct method
+c)abstract class we cannot create object or dnot do. only we can use subclass
+12)access specifier public,protect,private
+public can access all sib class from parent class
+protect can access only child class inherit from paren but not use in stranger class
+private cannot access chil class and access can inside parent only 
+but python has name mangalinh whuch mean priavte variable can access chil class ex: "_parent__privatevar"
+real time ex=> room notify staff only but some student donot care about this word "staff only" who wants to go inside 
+modifier
+
