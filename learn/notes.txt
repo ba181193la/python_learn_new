@@ -44,27 +44,57 @@ d)Tuple unpacking
 
 9)set=>avoid duplicate, maintain unique
 10)dictionary
+
 11)class and OOPS
 a)why self used => self is arg of python and first parameter this is rule
 b)inhertence=>method overwriting (son aceess from dad)=>
 dad =>house() and same son => house() we can overwrite
+
 c)multilevel reference ,hierarcy (we can access multiple sub class)
 dad has house() we can use son1 and son2 
 d)multiple inheritence=> access multiple class for subclass 
 ex=>dad => house() mom=> money() but son can access both like Son(dad,mom)
-10)polymorphisam=> 
+
+12)polymorphisam=> 
 method over writing=> method overwriting (son aceess from dad)=>
 dad =>house() and same son => house() we can overwrite
 method overloading (only use java not in python)=>same method but different parameter dad =>house(color,price)  son=>(color,price)
-11)abastraction=>create method in main class name "abastracted",implement another class (should be implement)
+
+13)abastraction=>create method in main class name "abastracted",implement another class (should be implement)
 in python =>from abc import ABC,abastracted 
 b)one abastarct class whatever abastarct method or non abastarct method
 c)abstract class we cannot create object or dnot do. only we can use subclass
-12)access specifier public,protect,private
+
+14)access specifier public,protect,private
 public can access all sib class from parent class
 protect can access only child class inherit from paren but not use in stranger class
 private cannot access chil class and access can inside parent only 
 but python has name mangalinh whuch mean priavte variable can access chil class ex: "_parent__privatevar"
 real time ex=> room notify staff only but some student donot care about this word "staff only" who wants to go inside 
 modifier
+
+15)encapsulation:hide information
+
+16)class,static methods: 
+class method => don't create object for class method direct we call using  class method
+"@classmethod" we should should note this 
+ex class Emp 
+@classmethod
+def getName ()
+#direct call 
+Emp.getName()
+static methods => we cannot change var in static method but can in class methods
+both method don't create object we call direct 
+
+17)File-Handling:
+r-readonly
+w-write-only
+a-append-only
+r+->read+write (file must exsit)
+w+ ->write+read (overwrite or create)
+a+->append +read(create if not exsit)
+rb-read binary
+wb-write binary
+ab- append binary
+if use with.open ,don't write file.close
 

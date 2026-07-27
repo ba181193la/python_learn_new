@@ -1,0 +1,5 @@
+INFO:Application start successfully
+INFO:user login successfully
+ERROR:Authentication failed
+INFO:cart added successfully
+ERROR:login failed
