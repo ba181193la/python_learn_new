@@ -98,3 +98,4 @@ wb-write binary
 ab- append binary
 if use with.open ,don't write file.close
 
+18)exception handling:try throw except finaly
