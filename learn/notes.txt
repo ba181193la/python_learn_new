@@ -106,3 +106,7 @@ finally =>what error come this part will excute ex app crash i have fun "logout"
 
 
 12)databse connection
+
+13)function types:
+a)callback function => function as give parameter
+b)highorder function=>function return another function
