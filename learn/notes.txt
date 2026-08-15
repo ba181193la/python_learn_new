@@ -110,3 +110,15 @@ finally =>what error come this part will excute ex app crash i have fun "logout"
 13)function types:
 a)callback function => function as give parameter
 b)highorder function=>function return another function
+c)pure function:Same input always gives the same output and does not change anything outside the function.
+d)Impure function → Can depend on or change something outside the function.
+
+e)Partial function na=>, oru function-ku multiple parameters irukkum. 
+                        Andha parameters-la some values-a already fix pannitu, 
+                        remaining values mattum later pass pannradhu. (cal(),gst=18(fixed))
+                        
+f)Function Composition=> a)oru function-oda output-a innoru function-ku input-aa use pannradhu.
+                        b)Function Composition = Multiple functions-ai combine panni, 
+                        one function-oda output-ai next function-ku input-aa use pannradhu.
+                        ex=>final = function2(function1(input)) =>result = add_five(double(10))
+
