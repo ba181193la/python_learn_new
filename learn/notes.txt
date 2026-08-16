@@ -122,3 +122,38 @@ f)Function Composition=> a)oru function-oda output-a innoru function-ku input-aa
                         one function-oda output-ai next function-ku input-aa use pannradhu.
                         ex=>final = function2(function1(input)) =>result = add_five(double(10))
 
+g)Recursive Function => Recursive function na, oru function itself-ai thirumba thirumba call pannikkaradhu.
+                        1. Function calls itself
+                        2. Base condition stops the recursion
+h)Generator & Yield  =>Generator na, oru function ellaa values-ai ore time-la memory-la create pannama, 
+                        one by one-a generate pannum.
+                        yield=> keyword use pannina, andha function generator function aagum
+
+l)Lambda, Map, Filter, Reduce :
+
+    Lambda=>Lambda na oru small anonymous function
+    map()=> na list-la irukkura every item mela oru operation apply pannradhu.
+            ex=>result=list(map(Lambda var:var*2,array))
+    filter() =>na condition satisfy panra items mattum select pannradhu.(js filter)
+    reduce() → multiple values-ai combine panni one final value create pannum.
+            ex=>[1, 2, 3, 4, 5] =>15
+
+14)Testcase-pytest=>1)pip install pytest
+                    pytest   → tests run pannum
+                    test_    → test identify panna naming
+                    assert   → expected result check
+                    passed   → correct
+                    failed   → expected ≠ actual
+
+15)schdule=>crontab.guru
+
+16)streamlit =>Streamlit is a Python framework. 
+                Python code use panni quick-aa web application / dashboard create panna use pannuvom
+
+17)Tkinter GUI=> desktop application
+                Tkinter is Python-oda built-in GUI library.
+18)Matplotlib for Viz => Matplotlib is a Python library used to create charts and graphs.
+                        python -c "import matplotlib; print(matplotlib.__version__)"
+
+19)fast api
+20)py=>python library store panura place 
